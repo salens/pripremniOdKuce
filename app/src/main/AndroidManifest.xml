@@ -13,7 +13,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".ListActivity"
+            android:name="com.example.sasa.priprema.ListActivity"
             android:theme="@style/AppTheme.NoActionBar"
             android:icon="@mipmap/ic_launcher"
             android:label="Actors">
@@ -27,15 +27,15 @@
         </activity>
 
         <activity
-            android:name=".DetailActivity"
+            android:name="com.example.sasa.priprema.DetailActivity"
             android:icon="@mipmap/ic_launcher"
             android:label="Actor Detail"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
-            android:name=".preferences.PripremaPrefererences"
+            android:name="com.example.sasa.priprema.preferences.PripremaPrefererences"
             android:label="@string/activity_settings_name"
-            android:parentActivityName=".ListActivity"
+            android:parentActivityName="com.example.sasa.priprema.ListActivity"
             android:theme="@style/AppTheme.NoActionBar" />
 
 
